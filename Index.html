@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 1</title>
+</head>
+
+<body>
+
+    <!--Horizentol navbar -->
+    <ul class="ul">
+        <li style="float: left; margin-bottom: 15px;"><img src="/ico.png" alt=""></li>
+        <li><a href="#Live Support">Live Support</a></li>
+        <li><a href="#Contact us">Contact us</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#home">Home</a></li>
+    </ul>
+
+    <!--Vertical navbar -->
+
+    <ul class="sidebar_ul">
+        <li style="float: center; margin-bottom: 10px;"><img src="/ico.png" alt=""></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact us">Contact us</a></li>
+        <li><a href="#Live Support">Live Support</a></li>
+    </ul>
+
+    <!-- From Section-->
+
+    <div class="Form">
+        <h2 class="h2">Created By advick Kumar Task -1</h2>
+        <table class="tb" style="border: 2px solid black; background:rgba(243, 248, 248, 0.705);">
+            <from class="Form" name="myform">
+                <!--First name Section Rowa-->
+                <tr>
+                    <td>First Name :</td>
+                    <td><input type="text" name="fName" id="fn" placeholder="Enter your First Name" required></td>
+                </tr>
+
+                <!--Last name Section Rowa-->
+                <tr>
+                    <td>Last Name :</td>
+                    <td><input type="text" id="ln" placeholder="Enter your Last Name" required></td>
+                </tr>
+
+                <!--Email Section Rowa-->
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" id="em" name="em" placeholder="Enter your Email"></td>
+                </tr>
+
+                <!--Address Section Rowa-->
+                <tr>
+                    <td>Address : </td>
+                    <td><input type="text" id="add" placeholder="Enter your Address" required></td>
+                </tr>
+
+                <!--Phone num Section Rowa-->
+                <tr>
+                    <td>Phone Num :</td>
+                    <td><input type="number" id="num" placeholder="Enter your Phone Number" required></td>
+                </tr>
+
+                <!--DOB Section Rowa-->
+                <tr>
+                    <td>Date of birth :</td>
+                    <td><input type="date" id="dob" placeholder="Enter your DOB" required></td>
+                </tr>
+
+                <!--Gender Section Rowa-->
+                <tr>
+                    <td>Gender :</td>
+                    <td>
+                        Male
+                        <input type="radio" name="gender" required>
+                        Female
+                        <input type="radio" name="gender" required>
+                        Other
+                        <input type="radio" name="gender" required>
+                    </td>
+                </tr>
+
+                <!--Country Option Rowa-->
+                <tr>
+                    <td>Cuntry : </td>
+                    <td><select name="cuntry" id="cuntry">
+                            <option value="india">India</option>
+                            <option value="usa">USA</option>
+                            <option value="canada">Canada</option>
+                            <option value="pok">Pok</option>
+                            <option value="nepal">Nepal</option>
+                            <option value="afganistan">Afganistan</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Text Area Section-->
+                <tr>
+                    <td>Messeage :</td>
+                    <td>
+                        <textarea name="msg" id="msg" cols="30" rows="8" placeholder="Enter your Messeage"></textarea>
+                    </td>
+                </tr>
+
+                <!--Checkbox section -->
+                <tr>
+                    <td>Are you Agreee </td>
+                    <td><input type="checkbox" id="ckhbox" required></td>
+                    <td>
+                        <div id="confirm" style="color: green;"></div>
+                    </td>
+                </tr>
+
+                <!--Button Section-->
+                <tr>
+                    <td><button type="submit" onclick="validate()">Submit</button></td>
+                </tr>
+            </from>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

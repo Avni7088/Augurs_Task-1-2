@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+/* Form Section */
+
+.Form {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Table Section */
+
+.tb {
+}
+
+th,
+td {
+    text-align: center;
+    padding: 15px;
+}
+
+/* Horizental Navbar */
+
+
+img {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #333;
+    position: fixed;
+}
+
+.ul li {
+    float: right;
+}
+
+.ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 35px;
+    text-decoration: none;
+}
+
+.ul li a:hover {
+    color: green;
+}
+
+/* Vertical Navbar */
+
+
+.sidebar_ul {
+    list-style-type: none;
+    margin-top: 70px;
+    margin-left: 0px;
+    padding: 0;
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    background: #333;
+
+}
+
+.sidebar_ul a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 20px 20px 30px;
+}
+
+.sidebar_ul a:hover {
+    color: green;
+}
